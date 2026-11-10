@@ -1,0 +1,6 @@
+[
+  {"id": "P001", "destination": "Library", "weight": 4, "priority": 10},
+  {"id": "P002", "destination": "ScienceBlock", "weight": 6, "priority": 8},
+  {"id": "P003", "destination": "Hostel", "weight": 3, "priority": 6},
+  {"id": "P004", "destination": "AdminBlock", "weight": 5, "priority": 7}
+]

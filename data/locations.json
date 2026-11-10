@@ -1,0 +1,7 @@
+{
+  "Depot": {"Library": 4, "ScienceBlock": 7, "Hostel": 3, "AdminBlock": 6},
+  "Library": {"Depot": 4, "ScienceBlock": 2, "Hostel": 5, "AdminBlock": 3},
+  "ScienceBlock": {"Depot": 7, "Library": 2, "Hostel": 4, "AdminBlock": 5},
+  "Hostel": {"Depot": 3, "Library": 5, "ScienceBlock": 4, "AdminBlock": 2},
+  "AdminBlock": {"Depot": 6, "Library": 3, "ScienceBlock": 5, "Hostel": 2}
+}
