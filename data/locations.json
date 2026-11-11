@@ -1,0 +1,56 @@
+{
+  "Depot": {
+    "Library": 4,
+    "ScienceBlock": 7,
+    "Hostel": 3,
+    "AdminBlock": 6,
+    "Cafeteria": 2
+  },
+  "Library": {
+    "Depot": 4,
+    "ScienceBlock": 2,
+    "Hostel": 5,
+    "AdminBlock": 3,
+    "Auditorium": 4
+  },
+  "ScienceBlock": {
+    "Depot": 7,
+    "Library": 2,
+    "Hostel": 4,
+    "AdminBlock": 5,
+    "EngineeringBlock": 3
+  },
+  "Hostel": {
+    "Depot": 3,
+    "Library": 5,
+    "ScienceBlock": 4,
+    "AdminBlock": 2,
+    "SportsComplex": 6
+  },
+  "AdminBlock": {
+    "Depot": 6,
+    "Library": 3,
+    "ScienceBlock": 5,
+    "Hostel": 2,
+    "Cafeteria": 4
+  },
+  "Cafeteria": {
+    "Depot": 2,
+    "AdminBlock": 4,
+    "Auditorium": 3
+  },
+  "SportsComplex": {
+    "Hostel": 6,
+    "EngineeringBlock": 5
+  },
+  "Auditorium": {
+    "Library": 4,
+    "Cafeteria": 3,
+    "EngineeringBlock": 4
+  },
+  "EngineeringBlock": {
+    "ScienceBlock": 3,
+    "SportsComplex": 5,
+    "Auditorium": 4
+  }
+}

@@ -1,0 +1,3 @@
+# Dependencies for Mini-Courier Planner (DAA Capstone)
+pytest>=8.0.0
+matplotlib>=3.8.0
