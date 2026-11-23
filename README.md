@@ -70,7 +70,19 @@ daa-capstone/
 
 ---
 
-## 3. Algorithm Specifications & Complexities
+## 3. Graph Model & Algorithm Specifications
+
+### 3.1 Delivery Road Network (Graph Data Structure)
+The campus road network is modeled as a weighted graph $G = (V, E)$:
+- **Vertices ($V$):** Physical locations (`Depot`, `Library`, `Hostel`, `Cafeteria`, `AdminBlock`, `Auditorium`, `ScienceBlock`, `EngineeringBlock`, `SportsComplex`).
+- **Edges ($E$):** Bidirectional road corridors with non-negative traversal distances ($\text{km} \ge 0$).
+- **Representation:** Stored as a weighted adjacency list in [`data/locations.json`](file:///c:/Users/WINNTUSIT/Desktop/DAA-Capstone/data/locations.json) and managed by [`core/graph_manager.py`](file:///c:/Users/WINNTUSIT/Desktop/DAA-Capstone/core/graph_manager.py).
+- **Shortest Paths & Routing:**
+  - **Dijkstra's Algorithm:** Computes shortest road paths from the depot or between stops using a binary min-heap (`heapq`).
+  - **Nearest Neighbor TSP Approximation:** Traverses the graph to visit all selected delivery locations and return to the depot.
+  - **Stop Sequence vs Physical Route:** Distinguishes between the customer delivery stop sequence (vertices) and the expanded physical turn-by-turn path through intermediate road network intersections.
+
+### 3.2 Algorithm Complexities & Specifications
 
 | Algorithm | Module | Time Complexity | Space Complexity | Optimality Status |
 |---|---|---|---|---|
